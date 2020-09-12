@@ -2,7 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import {Greet} from './components/Greet'
-import List from './components/List';
+// import List from './components/List';
 // import Welcome from './components/Welcome'
 // import {HelloJSX} from './components/Hallo'
 // import {HelloGaPakeJSX} from './components/Hallo'
@@ -32,7 +32,7 @@ function App() {
       {/* <EventBind /> */}
       {/* <ParrentComponent /> */}
       {/* <UserGreetings /> */}
-      <List />
+      {/* <List /> */}
     </div>
   );
 }
