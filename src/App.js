@@ -6,10 +6,11 @@ import {Greet} from './components/Greet'
 // import {HelloJSX} from './components/Hallo'
 // import {HelloGaPakeJSX} from './components/Hallo'
 import Message from './components/Message'
+import ParrentComponent from './components/ParrentComponent';
 // import Counter from './components/Counter'
 // import FunctionClick from './components/FunctionClick'
 // import ClassClick from './components/ClassClick'
-import EventBind from './components/EventBind'
+// import EventBind from './components/EventBind'
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       <HelloGaPakeJSX /> */}
       {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
-      <EventBind />
+      {/* <EventBind /> */}
+      <ParrentComponent />
     </div>
   );
 }
