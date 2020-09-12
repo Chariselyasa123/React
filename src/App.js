@@ -7,8 +7,9 @@ import {Greet} from './components/Greet'
 // import {HelloGaPakeJSX} from './components/Hallo'
 import Message from './components/Message'
 // import Counter from './components/Counter'
-import FunctionClick from './components/FunctionClick'
-import ClassClick from './components/ClassClick'
+// import FunctionClick from './components/FunctionClick'
+// import ClassClick from './components/ClassClick'
+import EventBind from './components/EventBind'
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
       {/* <Welcome name="Ahmad" heroName="Wondrman"/> */}
       {/* <HelloJSX />
       <HelloGaPakeJSX /> */}
-      <FunctionClick />
-      <ClassClick />
+      {/* <FunctionClick /> */}
+      {/* <ClassClick /> */}
+      <EventBind />
     </div>
   );
 }
