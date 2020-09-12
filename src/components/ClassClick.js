@@ -8,7 +8,7 @@ export class ClassClick extends Component {
     render() {
         return (
             <div>
-                <h1 className="heder">Pencet tombol dibawah dong :)</h1>
+                <h1>Pencet tombol dibawah dong :</h1>
                 <button onClick={this.clickHandler}>Click Aku DOngsz</button>
             </div>
         )
