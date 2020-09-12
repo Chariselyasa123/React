@@ -2,12 +2,13 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import {Greet} from './components/Greet'
+import List from './components/List';
 // import Welcome from './components/Welcome'
 // import {HelloJSX} from './components/Hallo'
 // import {HelloGaPakeJSX} from './components/Hallo'
 import Message from './components/Message'
 // import ParrentComponent from './components/ParrentComponent';
-import UserGreetings from './components/UserGreetings';
+// import UserGreetings from './components/UserGreetings';
 // import Counter from './components/Counter'
 // import FunctionClick from './components/FunctionClick'
 // import ClassClick from './components/ClassClick'
@@ -30,7 +31,8 @@ function App() {
       {/* <ClassClick /> */}
       {/* <EventBind /> */}
       {/* <ParrentComponent /> */}
-      <UserGreetings />
+      {/* <UserGreetings /> */}
+      <List />
     </div>
   );
 }
