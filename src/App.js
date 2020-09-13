@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import './App.css'
-import LifieCycleA from './components/LifieCycleA'
+import FragmenDemo from './components/FragmenDemo'
+import Table from './components/Table'
 
 class App extends Component {
     render() {
         return (
             <div className="App">
-                <LifieCycleA />
+               <FragmenDemo />
+               <Table />
             </div>
         )
     }
