@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 import './App.css'
-import LifieCycleA from './components/LifieCycleA'
+import Form from './Form';
 
-class App extends Component {
+class App_latihan2 extends Component {
     render() {
         return (
             <div className="App">
-                <LifieCycleA />
+                <Form/>
             </div>
         )
     }
 }
 
-export default App
+export default App_latihan2
